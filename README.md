@@ -27,7 +27,7 @@ Cada arbol contiene:
 - Un Barplot que muestra el palindromo mas abundante de entre todos los significativos para esa especie.
 
 Toda la información anterior esta incluida en el nombre de cada archivo:
-##elhai_97_Hexanuc_FrecObs_sel32_filogenia.pdf
+## elhai_97_Hexanuc_FrecObs_sel32_filogenia.pdf
 ### Conjunto: elhai_97 (Genomas usados en el estudio de elhai (2015))
 ### K-mero: Hexanuc (Hexanucleotidos)
 ### Abundancia: FrecObs (Frecuencia Observada cada 1000 nt)
