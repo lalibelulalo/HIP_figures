@@ -2,11 +2,14 @@
 ## python Conteo.py genomes_dir KMERS MODEL
 ## Where:
 ## KMERS: 
-##	A. Octamers
-##	B. HIP OCTAMERS
-##	C. HEXAMERS
+##	8. Octamers
+##	6. Hexamers
+##  5. Pentamers
+##  4. Tetramers
+##  61. HexamersNoHIP
+##	41. TetramersNoHIP
 ## MODEL: 0,1,2,3
-## python Conteo.py all_pico_2022_fna B 3
+## python Conteo.py all_pico_2022_fna 41 2
 import sys
 from CountKmers import CountKmers
 
