@@ -1,10 +1,10 @@
 # HIP_figures
 
 Cada carpeta corresponde a un conjunto de genomas:
-- Genomas completos (216 Genomas)
-- Genomas completos y genomas solo con cromosoma (269 Genomas)
-- Genomas usados en el estudio de elhai (2015) (97 Genomas)
-- Genomas usados en el estudio  de PJ Cabello-Yeves (2022). Incluyen 53 nuevos genomas de picocyanobacterias. (165 Genomas)
+- Genomas completos (216 Genomas): Complete_Genomes
+- Genomas completos y genomas solo con cromosoma (269 Genomas): Complete_and_Chromosome_Genomes
+- Genomas usados en el estudio de elhai (2015) (97 Genomas): Elhai_Genomes
+- Genomas usados en el estudio  de PJ Cabello-Yeves (2022). Incluyen 53 nuevos genomas de picocyanobacterias. (165 Genomas): New_Picocyanobacteria_Genomes
 
 Cada conjunto de genomas tiene 4 conjuntos de analisis de conteos de palindromos que corresponden con 4 valores de significancia que se tomaron como umbral de acuerdo al qvalue del FDR: 1e-32, 1e-64, 1e-128, 1e-256.
 
