@@ -1,10 +1,10 @@
 # HIP_figures
 
 Cada carpeta corresponde a un conjunto de genomas:
-- Genomas completos
-- Genomas completos y genomas solo con cromosoma
-- Genomas usados en el estudio de elhai (2015)
-- Genomas usados en el estudio  de PJ Cabello-Yeves (2022). Incluyen53 nuevos genomas de picocyanobacterias.
+- Genomas completos (216 Genomas)
+- Genomas completos y genomas solo con cromosoma (269 Genomas)
+- Genomas usados en el estudio de elhai (2015) (97 Genomas)
+- Genomas usados en el estudio  de PJ Cabello-Yeves (2022). Incluyen 53 nuevos genomas de picocyanobacterias. (165 Genomas)
 
 Cada conjunto de genomas tiene 4 conjuntos de analisis de conteos de palindromos que corresponden con 4 valores de significancia que se tomaron como umbral de acuerdo al qvalue del FDR: 1e-32, 1e-64, 1e-128, 1e-256.
 
@@ -25,6 +25,14 @@ Para cada analisis de K-meros se anotaron 2 filogenias de acuerdo a la abundanci
 Cada arbol contiene:
 - Un Heatmap que muestra las abundancias significativas de todos los palindromos para cada especie y
 - Un Barplot que muestra el palindromo mas abundante de entre todos los significativos para esa especie.
+
+Toda la información anterior esta incluida en el nombre de cada archivo:
+##elhai_97_Hexanuc_FrecObs_sel32_filogenia.pdf
+### Conjunto: elhai_97 (Genomas usados en el estudio de elhai (2015))
+### K-mero: Hexanuc (Hexanucleotidos)
+### Abundancia: FrecObs (Frecuencia Observada cada 1000 nt)
+### Significancia: sel32 (1e-32)
+
 
 Tambien se incluye el Script de R usado para anotar las filogenias.
 
